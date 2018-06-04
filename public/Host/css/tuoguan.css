@@ -1,0 +1,32 @@
+@import"base.css";
+body{background:none !important}
+/*介绍区域*/
+.detail_title{width:1000px; height:50px; margin:0 auto; color:#003399; line-height:50px; font-weight:normal; font-size:20px; margin-top:20px; text-indent:8px; background:url(../images/bt_line.jpg) 0px 40px no-repeat;}
+.content{ width:990px; margin:0 auto; overflow:hidden; color:#333; font-size:14px; line-height:30px; padding:5px; margin-top:20px; padding-bottom:40px; border-bottom:1px dashed #ccc; margin-bottom:30px;}
+.content p{ text-indent:2em; width:990px; float:left; overflow:hidden; margin-bottom:20px;}
+.content .message{ width:120px; float:left; line-height:30px; overflow:hidden; font-size:20px; padding-top:40px;}
+.content .introduce{width:460px; float:left; line-height:30px;padding-top:40px; overflow:hidden;}
+.content .introduce li{ line-height:30px; height:30px; background:url(../images/li_ico_07.jpg) 0px center no-repeat; text-indent:20px;}
+.content .introduce li.idc_btn{ background:none; height:50px; padding-top:20px;}
+.content .idcan{ float:right; width:400px; padding-top:50px; margin-right:10px; text-align:center; line-height:40px;}
+/*介绍区域结束*/
+
+/*机房展示开始*/
+.show_title{ width:1000px; height:50px; margin:0 auto; color:#333; line-height:50px; font-weight:normal; font-size:20px; text-indent:10px;}
+.show_pic{ width:985px; margin:0 auto; overflow:hidden; padding-left:15px;}
+.show_pic li{ width:297px; height:178px; float:left; padding:5px; overflow:hidden; border:1px solid #ccc; margin-bottom:30px; margin-right:18px;}
+.tg_list01{ padding-top:35px; width:980px; margin: 0 auto; font-size:12px;}
+.tg_list01 span{ color:#F00;}
+/*机房展示结束*/
+
+/*配置开始*/
+.config {width:1000px; margin:0 auto; overflow:hidden; padding-bottom:35px;}
+.config li .button{ width:116px; height:39px; background:url(../images/title_bg_18.jpg) no-repeat; margin-bottom:5px; color:#fff; font-size:16px; line-height:39px; text-align:center;}
+.config li{ width:320px; height:240px; float:left; padding-left:150px; line-height:30px; font-size:14px; color:#333; margin-top:30px; margin-left:10px;}
+/*配置结束*/
+
+
+.catitme{border:1px solid #E5E5E5;border-top:5px solid #190B65; background:#fff; overflow:hidden; width: 1000px;margin:24px auto 0;}
+.catitme li{ float: left;  display:inline; margin:10px 0 0px;} 
+.catitme li a{ display:block;height:35px; line-height:35px; font-size:18px;  padding:0 10px 0 20px; overflow:hidden; margin:0 0 0 20px; border-bottom:4px solid #fff; }
+.catitme li.on a{ background:#0F69FF; color:#fff; text-decoration:none; border-color:#041A40}

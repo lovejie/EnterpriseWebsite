@@ -1,0 +1,207 @@
+@import"base.css";
+/****pages***/
+.leftSide{ width:220px; float:left;padding:0 0 25px; position: relative;}
+#FloatMenu{ width:100%; background:#dededf; top:0;}
+.catSide{ height:100%}
+.catSide a{ height:85px; line-height:85px; background:#436bbb; color:#fff; display:block}
+.catSide a,.catSide .sub-menu a{ font-size:24px; font-family: "Microsoft YaHei"; font-weight:500; padding:0 0 0 45px}
+.catSide .sub-menu a{ color:#252525}
+.catSide .sub-menu a{ height:45px; line-height:45px;  background:#436bbb; margin:0 0 15px}
+.catSide .sub-menu a{display:block;background:#dededf; height:45px; font-size:17px; text-align:left;}
+.catSide .sub-menu li.current-menu-item a,.catSide .sub-menu li.current-menu-item a:hover{background:#202833; color:#fff}
+.catSide .sub-menu a:hover{ background:#d2d2d2}
+
+.rightSide{ width:940px;}
+.rightSide .tit{ height:45px; line-height:45px; margin:20px 0; padding-left:5px; background:#436bbb; width:auto}
+.rightSide .tit h1{ height:45px; line-height:45px; background:#fff; color:#436bbb; padding-left:30px}
+.listN{ padding:0 20px; overflow:hidden}
+.listN li{ border-bottom:1px dashed #dededf; height:100%; overflow: hidden; height:40px; line-height:40px; font-size:16px}
+.listN li span{ color:#aaa; float:right; font-size:14px}
+.listN li label{ font-family:"Arial Black", Gadget, sans-serif; padding:0 5px 0 0; font-weight:bold}
+.conShow{ line-height:25px; font-size:15px; color:#444; padding:20px 35px;font-family:"Microsoft YaHei";}
+.conShow p{ text-indent:2em; padding:5px 0;}
+.payPage{}
+.payPage li{ float:left; width:295px; margin:20px 15px 0 0; display:inline;  box-shadow:0 1px 1px #dededf; border-top:1px solid #eee; border-left:1px solid #eee; height:90px}
+.payPage li.endLi{ margin:20px 0 0}
+.pimg{ float:left; text-align:center; width:75px; line-height:20px; font-weight:bold; color:#666; }
+.pimg h3{ font-size:14px; font-family:"Microsoft YaHei"; font-weight:normal}
+.pimg img{ display:block; width:59px; margin:0 auto}
+.ptxt{ float:left; padding:10px 0 0; color:#363636; font-family:"Microsoft YaHei"; font-size:13px; width:220px; }
+.ptxt p{ height:24px; line-height:24px;}
+.ptxt p span{ font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size:14px;}
+.joinShow{ }
+.titJ{ height:18px; line-height:18px; padding:0 0 0 20px; background:#436bbb; margin:20px 0 0}
+.titJ h1{ background:#fff; font-size:16px; padding:0 0 0 10px; font-weight:normal;font-family:"Microsoft YaHei"; color:#252525}
+.titJa{ padding:0 0 0 30px}
+.titJa h3{ font-size:14px;font-family:"Microsoft YaHei"; font-weight:normal; color:#252525; margin:10px 0 0}
+.titJa p{  color:#454545; line-height:20px; font-size:13px; text-indent:2em}
+.map{ width:100%; height:400px; padding:5px}
+
+/**cat**/
+.navOpt{}
+.navOpt li{ display: inline; float:left; margin-right:20px; position:relative}
+.navOpt li a,.navOpt li.optTit{ display:block; padding:8px 15px 6px;color:#436bbb; border:1px solid #2a509a; font-size:15px;font-family:"Microsoft YaHei";}
+.navOpt li.optTit{ border:none; color:#252525;padding:8px 0 6px; font-size:17px}
+.navOpt li a:hover,.navOpt li.on a{ color:#fd4444;  border:1px solid #fb4444}
+.navOpt li a i{ display: none; width:26px; height:26px; position:absolute; bottom:0; right:0; background:url(../images/optico.png) no-repeat;}
+.navOpt li.on a i{ display:block}
+
+/*divtable*/
+
+.divtable{ color:#373737}
+.divtable dt,.divtable dd{ float:left; background:#fff; font-size:15px; text-align:center; border:1px solid #d2d2d2; border-left:none; padding:12px 10px; width:120px;}
+.divtable dd.frist{ border-left:1px solid #d2d2d2}
+.table-tit dd.frist{ border-left:1px solid #434bbb}
+.table-tit dd,.table-tit dt{ background:#446bbb; color:#fff; font-size:16px; border-color:#434bbb; border-bottom-width:2px}
+.divtable dd.t0{ width:243px}
+.divtable dd.t1{ width:610px;padding:12px 30px}
+.divtable dd.t2{ width:243px}
+.table-tr{ clear:both}
+.table-tr dd,.table-tr dt{  border-top:none}
+.divtable dt.table-child{ width:997px; padding:0; border:none; height:auto}
+.table-tr dd.t1{ text-align:left}
+.webtable .t1 p{ line-height:23px; padding:3px 0; color:#373737}
+.webtable .t0 h3{ font-size:24px; font-weight:normal; color:#373737}
+.webtable .t2 h3{ font-size:14px}
+
+
+.yw_youshi{ background:#fff url(../images/yw_yshi.png) no-repeat 730px center; padding:30px 500px 30px 30px; border:1px solid #dededf}
+.yw_youshi h3{ height:30px; line-height:30px; font-size:24px; color:#446bbb}
+.yw_youshi p{ font-size:16px; line-height:25px; padding:10px 0}
+/**list-rk*/
+
+.rk4{}
+.rk4 li{ width:253px; border:1px solid #dededf; background:#fff; margin-left:20px; float:left;padding:15px; height:auto; overflow:hidden}
+.rk4 li.frist{ margin-left:0}
+.rk4 li h3{ font-size:16px; color:#446bbb; border-bottom:1px solid #dededf; padding:5px 0 15px}
+.rk4 li h6{ font-size:15px;  padding:5px 0; color:#363636}
+.rk4 li p{ padding:2px 0; font-size:14px; color:#515151}
+.rk4 li p i{ font-weight:bold; font-size:18px; padding:0 5px 0 0; font-style:normal; color:#aaa}
+.rk4 li .price{ font-size:13px; text-align:center;color:#373737}
+.rk4 li .price b{font-size:24px;  font-weight:normal; padding:0 5px; font-family:Georgia; color:#fb3333}
+
+.rk4 li p.buy{ text-align:center; padding:15px 0 10px; font-size:15px}
+.rk4 li p.buy a{color:#fff; padding:5px 25px;border:2px solid #fb4444; color:#fb4444}
+.rk4 li p.buy a:hover{ color:#fff; background:#fb4444; color:#fff }
+.yw-os li h3{ font-size:16px; color:#446bbb;  background:url(../images/yw_icon1.png) no-repeat 0 8px;border-bottom:1px solid #dededf; padding:0 0 15px 50px}
+.yw-os li.liunx_ico h3{ background-position:0 -117px}
+
+ 
+
+.outline{ background:#fff; border:1px solid #dededf; padding:15px; overflow:hidden}
+
+.w450{ width:450px}
+.txtbox{ background:url(../images/desicon.png) no-repeat; line-height:25px; color:#666; font-size:14px; padding:8px 0 0; padding:0 0 0 35px}
+.txtbox_inner{background:url(../images/desicon2.png) no-repeat right bottom; padding:0 35px 0 0}
+.tab_txt{ border-top:1px solid #d2d2d2; padding:15px 0 0; margin:10px 0 0}
+.tab_txt li{ clear:both;display:block}
+.tab_txt em{ font-style:normal; text-emphasis:none}
+.tab_txt_l{ width:60px; float:left; color:#999}
+.tab_txt_r{ float:right; width:380px}
+
+.d_radio a{border:1px solid #dededf; text-align:center; font-size:13px; position:relative; display:block; float:left; padding:7px 14px; margin:0 12px 10px 0}
+.d_radio a i{ background:url(../images/curricon.png) no-repeat; height:13px; width:13px; bottom:0; right:0; position:absolute; display:none}
+.d_radio a:hover{ border-color:#aaa}
+.d_radio a.on{ border:2px solid #436bbb; color:#436bbb;padding:6px 13px;}
+.d_radio a.on i{ display:block;}
+.money-icon{font-style:normal; color:#999}
+.money-num{font-size: 24px;color: #fb4444;font-weight: bolder;font-family: Arial;line-height: 20px; font-style:normal}
+.buy_btn{ display:block; width:105px; height:36px; text-align:center; color:#fff; background:url(../images/but.png) no-repeat; line-height:36px; font-size:13px}
+.buy_btn:hover{ color:#fff}
+.w700{ width:700px}
+.yw_list{ border-left:1px solid #dededf; padding:0 0 0 20px} 
+.yw_tit{ background:url(../images/yw_titico.png) no-repeat 0 10px; height:30px; line-height:30px; padding:0 0 0 20px; border-bottom:1px solid #d2d2d2; padding-bottom:10px}
+.yw_tit h3{ font-size:18px; font-weight:normal; color:#435bbb}
+.yw_list p{ line-height:22px; padding:0 0 0 25px; font-size:14px; color:#666}
+.yw_list h6{ font-size:16px; font-weight:normal}
+.yw_list h6 i{ font-size:24px; font-style:normal; padding:0 5px;font-weight:bold; color:#515151; line-height:25px}
+.hide{ display:none}
+
+
+
+/*=======web=======*/
+.inner3{}
+.inner3 li{ margin-top:15px}
+.inner3 li .img{ width:336px; height:205px; overflow:hidden}
+.inner3 li .tit{ font-size:16px; padding:10px 0 0}
+
+.dt_myproject { margin:20px auto 0; overflow:hidden; width:600px}
+.dt_myproject dd { float:left;}
+.dt_myproject dt { float:left; margin-right:15px;}
+.dt_myproject dd h3 { font-size:38px; color:#373737; margin-bottom:5px; font-weight:500}
+.dt_myproject dd p { font-size:14px; color:#515151;}
+.columns{ padding:29px; overflow:hidden; background:#fff; border:1px solid #dededf}
+.four-columns,.columns ul.inner3 li{ width:336px; float:left; display:inline; margin-left:48px;}
+.columns .frist,.columns ul.inner3 li.frist{ margin-left:18px}
+.inner3 li.on{ box-shadow:3px 2px 5px #d2d2d2}
+.inner3 li.on a{ color:#fb3333}
+
+.why_about { overflow:hidden;}
+.why_about dt { float:left; margin-right:10px;}
+.why_about dd p { margin-bottom:5px;}
+.why_odds{ font-size:24px; color:#373737}
+.why_tips{ color:#666; padding:5px 0 0}
+
+
+
+
+.inner4 li{ float:left; width:240px; display:inline; margin-left:48px; overflow:hidden}
+.inner4 li.webcon_01{ margin-left:18px}
+.inner-tit{ background:#25ac5c; text-align:center; color:#fff; height:147px}
+.inner-tit .img{ height:48px; padding:42px 0 0; text-align:center}
+.inner-tit .tit{ height:50px; line-height:50px; font-size:18px}
+.inner-des{ background:#eee; padding:15px; color:#515151}
+
+.webcon_02 .inner-tit{ background:#3498db}
+.webcon_03 .inner-tit{ background:#19b696}
+.webcon_04 .inner-tit{ background:#ec6d63}
+
+.liucheng{ text-align:center; width:1100px; margin:0 auto;}
+
+.hj2{ width:1104px; margin:10px auto 0}
+.hj2 dt{ float:left; width:420px}
+.hj2 dd{ float:right; width:636px}
+
+.customer_say{ background:#3498db; padding:10px 30px 0; height:182px; overflow:hidden}
+.customer_say li{ padding:15px 0 15px; border-top:1px dashed #0975be; text-align:left}
+.customer_say li.frist{ border:none}
+.customer_say p{ font-size:16px; color:#fff; padding:0 5px;}
+.customer_say h3{ font-size:14px; color:#cbe7f9; text-align:right; font-weight:normal}
+
+.customer_logo{ border-top:1px solid #dededf; border-left:1px solid #dededf; height:100%; overflow:hidden; width:632px}
+.customer_logo li{ float:left; width:157px; overflow:hidden; display: inline; border:1px solid #ddd; border-left:0; border-top:none; height:95px}
+
+
+.partner_des{ padding:30px 0 30px 35px;font-size:16px; line-height:28px; color:#515151;  background:url(../images/desicon.png) no-repeat 0 25px}
+.partner_des p{ padding:5px 0}
+.partner_des_r{ padding-left:30px}
+.partner_des_l{ background:url(../images/desicon2.png) no-repeat right bottom; padding:0 35px 10px 0; width:800px}
+.gray{ color:#aaa}
+.blue a{ color:#43bbef}
+ 
+.tit03{ border-bottom:1px solid #dededf; height:45px; line-height:45px; position:relative}
+.tit03 h1{ position:absolute; bottom:-1px; border-bottom:2px solid #252525; height:45px; line-height:45px; font-size:24px; font-weight:normal}
+
+ 
+.super{ position:relative; float:left; width:21%;height:auto; margin-right:5%; }
+.super p{ line-height:22px;padding-top:20px; }
+.super .img1{ background:url(../images/partner_super.png) -4px -1px; width:160px; height:160px; margin:0 auto;}
+.super .img2{ background:url(../images/partner_super.png) -293px -1px; width:160px; height:160px; margin:0 auto;}
+.super .img3{ background:url(../images/partner_super.png) -581px -1px; width:160px; height:160px; margin:0 auto;}
+.super .img4{ background:url(../images/partner_super.png) -870px -1px; width:160px; height:160px; margin:0 auto;}
+.join p{ float:left; line-height:22px; padding-top:15px; }
+.join p.p1{ float:left; width:190px; }
+.join p.p2{ float:left; width:90px; margin-left:155px; }
+.join p.p3{ float:left; width:90px;  margin-left:225px;}
+.join p.p4{ float:right; width:90px; margin-right:10px }
+.customerbox{ width:100%; margin:0 auto; border:none}
+.customerbox li{ width:163px; height:95px; margin:30px 0 0 30px; border:1px solid #d2d2d2}
+.customerbox li.frist{ margin-left:0}
+
+.partner_say{}
+.partner_say li{ float:left; display:inline; margin:30px 0 0 30px; width:324px; overflow:hidden; border:1px solid #dededf; padding:17px; box-shadow:0 2px 1px #dededf;}
+.partner_say li.frist{ margin-left:0}
+.partner_say h3{ font-size:14px; color:#515151; font-weight:normal;}
+.partner_say h3 b{ color:#373737; color:#43bbef; font-size:18px; padding:0 10px}
+.partner_say .img{ float:left; text-align:center; width:120px;height:80px; overflow:hidden; margin:10px 0 0}
+.partner_say .txt{ float:left; width:194px; font-size:14px; line-height:20px; height:80px; overflow:hidden; color:#373737; margin:10px 0 0 10px}

@@ -1,0 +1,68 @@
+@import "base.css";
+
+@font-face {
+font-family: 'unmn';
+src: url('font/unmn.eot?90518967');
+src: url('font/unmn.eot?90518967#iefix') format('embedded-opentype'),
+	 url('font/unmn.woff?90518967') format('woff'),
+	 url('font/unmn.ttf?90518967') format('truetype'),
+	 url('font/unmn.svg?90518967#edit') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+.font-unmn{ font-family:'unmn'; font-weight:normal; font-style:normal; padding-right:5px}
+.catitme{ border-top:5px solid #190B65; background:#fff; overflow:hidden; padding:10px 0 0; box-shadow:0 0 3px #aaa}
+.catitme li{ float: left;  display:inline; margin:10px 0 0px;} 
+.catitme li a{ display:block;height:35px; line-height:35px; font-size:18px;  padding:0 10px 0 20px; overflow:hidden; margin:0 0 0 20px; border-bottom:4px solid #fff; }
+
+.catitme li.on a{ background:#0F69FF; color:#fff; text-decoration:none; border-color:#041A40}
+
+.desjf{ background:#fff; box-shadow:0 0 3px #aaa; overflow:hidden}
+.tab_tit{ background:#0F69FF; color:#fff;  height:65px; line-height:65px}
+.tab_tit a{ height:100%; padding:0 20px; font-size:18px; color:#fff; display:block; float:left;}
+.tab_tit a b{}
+.tab_tit a:hover{ background:#07347F}
+.tab_tit a:hover b,.tab_tit a.on b{ color:#FF0}
+.tab_tit a.on{ background:#041A40}
+.desjf .con{ overflow:hidden; clear:both}
+.desjf .con dl{}
+.desjf .con dl{ float:left; width:525px; display:inline; margin:0 0 0 50px; padding:25px 0}
+.desjf .con dl dt{ font-size:18px; background:url(../images/td_dtb.jpg) no-repeat 0 12px; height:30px; line-height:30px; font-weight:bold; padding:0 0 10px 20px }
+.desjf .con dl dd{ font-size:14px; line-height:25px; padding-left:20px; color:#606060}
+
+.ctitle{ font-size:24px; height:45px; line-height:45px; color:#202020}
+.goodsbox{ background:#fff; overflow:hidden;box-shadow:0 0 3px #aaa}
+.goodsbox .tit{ background:#0F69FF; height:55px; line-height:55px; color:#fff; width:1200px}
+.goodsbox li,.tab_con li,.goodsbox li.g1 b{ float:left; height:55px; line-height:55px; display: inline; width:124px; padding:0 0 0 20px; overflow:hidden}
+.goodsbox .tit li{ font-size:16px; font-weight:bold}
+.goodsbox li.g0,.goodsbox li.buy{ width:140px}
+.goodsbox li.price{ width:136px}
+.goodsbox li.g1{ width:724px; padding:0; overflow:hidden}
+.goodsbox li.g1 b{ font-weight:normal; display:block; height:65px; line-height:65px;  }
+ 
+.goodsbox .con li.g0,.tab_con ul li.g0{ border-left:5px solid #fff; width:135px}
+.goodsbox .con{ background:#fff}
+.goodsbox .con ul,.tab_con ul{ width:1200px; border-top:1px dotted #dededf; height:65px; clear:both}
+.goodsbox .con li,.tab_con ul li{ height:65px; line-height:65px; color:#525252}
+
+.goodsbox .con ul:hover,.tab_con ul:hover{border-top:none; height:66px}
+.goodsbox .con ul:hover li,.tab_con ul:hover li{ background:#FFF8CC; color:#f40;}
+.goodsbox .con ul:hover li.g0,.tab_con ul:hover li.g0{ border-left-color:#FDC803; }
+
+.goodsbox .con li.price,.goodsbox .con ul:hover li.price{ font-size:14px; color:#DA1B21;}
+.goodsbox .con li.price span{font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:24px; padding:0 5px}
+
+ 
+
+
+
+.goodsbox .con li.buy input{color:#fff; border-radius:3px; background:#F0A303; padding:5px 20px; font-size:16px; border:1px solid #D69203; display:block; margin:12px 0 0}
+.goodsbox .con li.buy input:hover{ background:#FDAC03}
+.tab_con{ display:none}
+.tab_con ul li{ width:580px;}
+.tab_con ul li.g0{ width:575px; text-align:center}
+
+.x1a_t{ padding:0 25px; clear:both}
+.x1a_t .exo{ float:left; height:30px; line-height:30px; color:#666; width:120px; text-align:right}
+.x1a_t .emo{ float:left; padding:0 0 0 5px; height:30px; line-height:30px}
+
